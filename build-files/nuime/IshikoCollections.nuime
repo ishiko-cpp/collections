@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="https://nuime.org/schema/core/1">
-  <name>collections</name>
+  <name>IshikoCollections</name>
   <targets>
     <target>
-      <name>collections-lib</name>
+      <name>lib</name>
       <labels>
         <label>nuime:product</label>
       </labels>
@@ -11,9 +11,9 @@
         <property name="nuime:test-suite">
           <target-ref>
             <location>
-              <url>https://github.com/ishiko-cpp/collections/tests/build-files/nuime/collections-tests.nuime</url>
+              <url>https://github.com/ishiko-cpp/collections/tests/build-files/nuime/IshikoCollectionsTests.nuime</url>
             </location>
-            <name>collections-tests</name>
+            <name>tests</name>
           </target-ref>
         </property>
       </properties>
@@ -21,12 +21,12 @@
   </targets>
   <subprojects>
     <subproject>
-      <name>collections-tests</name>
+      <name>IshikoCollectionsTests</name>
       <labels>
         <label>nuime:tests</label>
       </labels>
       <location>
-        <url>https://github.com/ishiko-cpp/collections/tests/build-files/nuime/collections-tests.nuime</url>
+        <url>https://github.com/ishiko-cpp/collections/tests/build-files/nuime/IshikoCollectionsTests.nuime</url>
       </location>
     </subproject>
   </subprojects>
